@@ -5,6 +5,6 @@
 
 **hv_check_ssd**
 ```
-# start check vulners hourly
+# start check every minute
 * * * * * root python /usr/local/bin/hv_check_ssd.py &> /var/log/hv_check_ssd
 ```
